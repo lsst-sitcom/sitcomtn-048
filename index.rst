@@ -68,18 +68,18 @@ Verification Documentation and Artifacts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Systems Engineering team uses a specific Jira project for its verification performance and tracking.
-Personnel looking for verification documentation should consult `LSE-160 <ls.st/LSE-160>`_.
+Personnel looking for verification documentation should consult `LSE-160 <https://ls.st/LSE-160>`_.
 
 The verification and validation process also utilize a specific repository for the storing of their Jupyter notebooks that act as official artifacts.
 This is further described in the `Verification And Validation Notebooks`_ subsection below.
 
 
 Technotes
-^^^^^^^^^
+^^^^^^^^^^
 
-Technotes are useful for documenting outcomes of specific tests and/or findings, proposing new functionality or architectures, and/or documenting specific usages that augment user documentation.
+Technotes are useful for documenting outcomes of specific tests  and/or findings, proposing new functionality or architectures, and/or documenting specific usages that augment user documentation.
 They can also be used as logs and/or status of longer term analyses.
-An example of this is the technote on Building and fitting the pointing model for the AuxTel (:tstn:`014`)
+An example of this is the technote on `Building and fitting the pointing model for the AuxTel <https://tstn-014.lsst.io/>`_
 In this case, there are chapters (seen on the left) showing the analysis from different runs and the results that were obtained.
 This is an appropriate use of a technote.
 
@@ -185,7 +185,7 @@ Webspaces
 ^^^^^^^^^
 
 During early operations of the Auxiliary Telescope, there was a need to have the information required for operators assembled into a single area with a coherent, searchable structure.
-Following from the examples used by DM, specifically for the `DM Pipelines <pipelines.lsst.io>`_, a space was created to support this purpose.
+Following from the examples used by DM, specifically for the `DM Pipelines <https://pipelines.lsst.io>`_, a space was created to support this purpose.
 
 These areas are best used for user-facing documentation.
 This includes general information, how-to's and procedures that are not subject to change control, and therefore does not risk the safety of personnel or equipment.
@@ -201,15 +201,15 @@ Until that infrastructure exists, which will also support reStructuredText (mean
 Obs-Ops Webspace
 ----------------
 
-The `Obs-Ops Webspace <obs-ops.lsst.org>`_ is being populated to assist with on-site commissioning and operations related activities.
+The `Obs-Ops Webspace <https://obs-ops.lsst.io>`_ is being populated to assist with on-site commissioning and operations related activities.
 The content largely comes from people performing the tests and/or nightly operations.
 For the moment, the content being added is focused on observing procedures and/or required reference material, but the larger goal is for each of the areas to link to any other applicable documentation that could be stored in technotes, Docushare, or other areas.
 
 
-Obs-Control Webspace
---------------------
+Obs-Controls Webspace
+---------------------
 
-The `Obs-Control Webspace <obs-controls.lsst.org>`_ fulfils the same purpose as the `Obs-Ops Webspace`_, except it is focused on observatory control software.
+The `Obs-Controls Webspace <https://obs-controls.lsst.io>`_ fulfils the same purpose as the `Obs-Ops Webspace`_, except it is focused on observatory control software.
 This area is the first place to go when looking to learn more about the control system and how to use it.
 SIT-Com users are encouraged to populate this page as well.
 It is very common (and encouraged) to link content between this area and the `Obs-Ops Webspace`_.
