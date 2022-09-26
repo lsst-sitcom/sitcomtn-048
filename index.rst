@@ -12,10 +12,6 @@ This technote details the types of documentation that are available to SIT-Com p
 Introduction
 ============
 
-.. warning::
-
-   This document has not yet been approved by SIT-Com leadership and should be considered a proposal until this message is removed.
-
 During the development, commissioning, and operations of the observatory, numerous types of documentation will be developed and/or received from vendors and ultimately archived for later use.
 The SIT-Com team is tasked with performing system characterization and verification, which will result in numerous pieces of documentation being generated, such as: procedures, control code, data reductions and analyses, and numerous verification artifacts.
 The type of documentation that is most appropriate to use is dependent upon the situation.
