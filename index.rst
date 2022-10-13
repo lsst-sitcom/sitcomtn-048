@@ -181,13 +181,14 @@ Webspaces
 ^^^^^^^^^
 
 During early operations of the Auxiliary Telescope, there was a need to have the information required for operators assembled into a single area with a coherent, searchable structure.
-Following from the examples used by DM, specifically for the `DM Pipelines <https://pipelines.lsst.io>`_, a space was created to support this purpose.
+Following from the examples used by DM, specifically the architecture used for `DM Pipelines <https://pipelines.lsst.io>`_ documentation, two webspaces have been created to support this purpose. 
+These are described in the subsections below.
 
-These areas are best used for user-facing documentation.
-This includes general information, how-to's and procedures that are not subject to change control, and therefore does not risk the safety of personnel or equipment.
-Anything requiring strict reviews (e.g. glass lift plans) cannot be put in this area, but they can be linked!
+Webspaces are areas are best used for user-facing documentation.
+This includes general information, how-to's and procedures that are not subject to change control, and therefore do not risk the safety of personnel or equipment.
+Anything requiring strict reviews (e.g. glass lift plans) cannot be put into a webspace, but they can be linked!
 
-Users are encouraged to populate this areas.
+Users are encouraged to populate these areas, which can be accomplished via a standard pull-request to github repos (details in the following sections).
 If there is not an obvious space for your content then please ask in the ``#rubinobs-sitcom-docs`` Slack channel.
 In the event that a large series of documentation is required that does not fit into the already created webspaces, it is possible to create new spaces with relative ease.
 
@@ -201,6 +202,10 @@ The `Obs-Ops Webspace <https://obs-ops.lsst.io>`_ is being populated to assist w
 The content largely comes from people performing the tests and/or nightly operations.
 For the moment, the content being added is focused on observing procedures and/or required reference material, but the larger goal is for each of the areas to link to any other applicable documentation that could be stored in technotes, Docushare, or other areas.
 
+Editing the `Obs-Ops Webspace <https://obs-ops.lsst.io>`_ is performed by making a branch from the `GitHub repo <https://github.com/lsst-ts/observatory-ops-docs>`_, making the desired changes and pushing them, making sure the build passes, then filing a pull request.
+There are detailed instructions on how to complete these steps in the `Contributing to Observatory Operations Documentation <https://obs-ops.lsst.io/project/contributing.html#contributing-to-observatory-operations-documentation>`_ section of the webspace.
+
+
 
 Obs-Controls Webspace
 ---------------------
@@ -210,11 +215,16 @@ This area is the first place to go when looking to learn more about the control 
 SIT-Com users are encouraged to populate this page as well.
 It is very common (and encouraged) to link content between this area and the `Obs-Ops Webspace`_.
 
+The process to edit this webspace follows the same concept as the Obs-Ops Webspace.
+The instructions are in the `Contributing to Observatory Controls Documentation <https://obs-controls.lsst.io/project/contributing.html#contributing-to-observatory-controls-documentation>`_
+
 .. note::
 
    Details on writing and documenting control software code are found in the `TSSW Developer Guide <https://tssw-developer.lsst.io/>`_.
    For DM-centric code, follow the `DM Developer Guide <https://developer.lsst.io/>`_.
    Both guides are based upon the same principles and have significant overlap.
+
+
 
 Docushare
 ^^^^^^^^^
