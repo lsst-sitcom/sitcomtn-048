@@ -258,6 +258,26 @@ SIT-Com has a specific collection that is available for use: `Systems Engineerin
 Note that as part of the project-wide Documentation Working Group, the collections and application of DocuShare will be restructured.
 Message the ``#rubinobs-sitcom-docs`` Slack channel for guidance before creating or editing files or collections in DocuShare.
 
+
+Confluence
+^^^^^^^^^^
+Confluence is a part of the Atlassian suite of tools used by the project.
+It is a wiki that integrates well with Jira, and it is especially convenient for rapidly developing new ideas and taking and storing meeting minutes.
+As it is a web-based application, it offers simultaneous editing, an easy way to share information, and useful way to draft outlines for future documentation.
+Although convenient to use for these purposes, Confluence should not be used for official SIT-Com documentation meant to persist for more than a few weeks.
+It is challenging to control information, enforce version control and change history tracking, archiving information, and reliable data recovery.
+It is also challenging to navigate and guarantee reliable, consistent access.
+
+That being said, there is a `SIT-Com Confluence Space <https://confluence.lsstcorp.org/display/LSSTCOM>`_ that is used extensively by the team.
+However, content must be moved into technotes, webspaces, or other forms of project documentation at the earliest appropriate stage.
+
+Google applications
+-------------------
+Google provides a suite of applications, including a word processor, spreadsheets, and others that also offers simultaneous editing.
+Google applications pose an information security risk, potential loss of access to information (e.g., lost or private accounts) and difficulties in sharing with a wide group.
+A Google-based application is often considered as an alternative to Confluence but should be avoided unless there is no viable alternative.
+
+
 .. Make in-text citations with: :cite:`bibkey`.
 .. Uncomment to use citations
 .. .. rubric:: References

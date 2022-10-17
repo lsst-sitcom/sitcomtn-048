@@ -14,7 +14,7 @@ SIT-Com Documentation Workflow
 SITCOMTN-048
 ============
 
-This technote details the types of documentation that are available to SIT-COM personnel, and when they should be used.
+This technote details the types of documentation that are available to SIT-Com personnel, and when they should be used.
 
 **Links:**
 
