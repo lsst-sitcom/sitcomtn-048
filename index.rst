@@ -7,13 +7,13 @@
 Abstract
 ========
 
-This technote details the types of documentation that are available to System Integration Test & Commissioning (SIT-COM) personnel, and when they should be used.
+This technote details the types of documentation that are available to System Integration Test & Commissioning (SIT-Com) personnel, and when they should be used.
 
 
 Introduction
 ============
 
-The Vera C. Rubin Observatory SIT-COM team is tasked with performing system characterization and verification, which will result in numerous pieces of documentation being generated, such as: procedures, control code, data reductions and analyses, and a variety of verification artifacts.
+The Vera C. Rubin Observatory SIT-Com team is tasked with performing system characterization and verification, which will result in numerous pieces of documentation being generated, such as: procedures, control code, data reductions and analyses, and a variety of verification artifacts.
 During the development, commissioning, and operations of the observatory, numerous types of documentation will be developed, including documentation from vendors.
 
 All documentation will be stored and/or archived for later use.
@@ -28,16 +28,16 @@ This document describes the different documentation options and when they may be
 Project-level change controlled documentation
 =============================================
 
-SIT-COM follows the project standard in that all documentation requiring project-level change control requires an LSE document handle and all modifications to the document are handled through the project Change Control Board (CCB).
+SIT-Com follows the project standard in that all documentation requiring project-level change control requires an LSE document handle and all modifications to the document are handled through the project Change Control Board (CCB).
 Specifically, this should includes procedures which may result in damage to equipment and/or injury to personnel (e.g., mirror handling) and formal documentation such Interface Control Documents (ICDs).
-It is anticipated that very few SIT-COM generated artifacts will fall into this category.
+It is anticipated that very few SIT-Com generated artifacts will fall into this category.
 
-SIT-COM-level change control
+SIT-Com-level change control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Documentation that is applicable to only SIT-COM personnel and/or internal to SIT-COM subsystems, the implementation of a SIT-COM change control board has been discussed, but is not currently in place.
-Examples of documents that are SIT-COM specific and should be under change control include documentation of workflows (like this one), management plans, and SIT-COM specific procedures that require sign-off by specific domain experts.
-Until a SIT-COM change control system is enacted, these types of documentation exist as `Technotes`_.
+Documentation that is applicable to only SIT-Com personnel and/or internal to SIT-Com subsystems, the implementation of a SIT-Com change control board has been discussed, but is not currently in place.
+Examples of documents that are SIT-Com specific and should be under change control include documentation of workflows (like this one), management plans, and SIT-Com specific procedures that require sign-off by specific domain experts.
+Until a SIT-Com change control system is enacted, these types of documentation exist as `Technotes`_.
 
 When required to be under stricter change control, GitHub repository branch protection should be put in place.
 The designation of specific names for the reviewers can also be manually specified.
@@ -51,12 +51,12 @@ In the event that adding non-default protections to a technote's repository (dis
 General documentation types
 ===========================
 
-This section outlines the different types of documentation used by SIT-COM personnel.
+This section outlines the different types of documentation used by SIT-Com personnel.
 
 Jira tickets
 ^^^^^^^^^^^^
 
-SIT-COM related work should follow the `SIT-COM specific Jira workflow <https://sitcomtn-023.lsst.io/>`_.
+SIT-Com related work should follow the `SIT-Com specific Jira workflow <https://sitcomtn-023.lsst.io/>`_.
 Documentation in Jira tickets should be sufficiently detailed such that it addresses the description in the task.
 It is not expected to be consulted in the future, especially on a regular occurrence.
 In many cases, specifically when characterization activities have taken place over a series of tickets, external documentation should be developed and linked to the Jira ticket(s).
@@ -94,7 +94,7 @@ and, information that is generally applicable (e.g., the pointAddData command) i
 Creation and review of technotes
 --------------------------------
 
-Before creating a technote, a Jira ticket should be opened following the `SIT-COM work management Jira workflow <https://sitcomtn-023.lsst.io/>`_.
+Before creating a technote, a Jira ticket should be opened following the `SIT-Com work management Jira workflow <https://sitcomtn-023.lsst.io/>`_.
 The use of a ticket helps with tracking progress, linking to other applicable tickets, and to facilitate an easier review process.
 In general, technote reviews should be performed by the intended customer of its content.
 Collaborators and subject matter experts are also useful reviewers.
@@ -113,9 +113,9 @@ When relevant, technotes should also link and/or include all supporting document
 This includes any Jupyter notebooks and Jira tickets where work was performed, especially if there exists content in the external source which may be applicable to the technote.
 Inside the technote's repository is a ``_static`` directory where other files (i.e., static objects) can be included, such as any analysis Jupyter Notebook referenced by the text or supporting figures.
 
-**Technotes should never be deleted**.
+**Technotes should never be deleted.**
 In the event that the content becomes stale, superseded, or even found to be incorrect, a revision to the technote should be committed removing or correcting the content.
-As appropriate, included ``DEPRECATED`` in the title and link any documents that replace the technote.
+As appropriate, include ``DEPRECATED`` in the title and link any documents that replace the technote.
 This way the content is never entirely lost, as it will remain in the git history of the repository.
 
 The Data Management team uses technotes extensively and ensures these tools are well maintained.
@@ -136,7 +136,7 @@ Furthermore, they are a natural starting point for development of ideas and demo
    If a piece of code (e.g., a function) developed in a notebook is useful, then it must be moved into a function in the development repositories.
    In the case of control system code, this workflow is discussed in `TSTN-010 <https://tstn-010.lsst.io/>`_.
 
-A easy indication is that if one finds themselves copying/pasting code from a notebook to another, then that code should not be in a notebook!
+An easy indication is that if one finds themselves copying/pasting code from a notebook to another, then that code should not be in a notebook!
 It is expected that if something is developed during a commissioning activity or observing run that the code is moved in short order.
 If one does not have the knowledge or ability to do this, then ask for assistance from other observatory personnel (e.g., the ``#rubinobs-sitcom-docs`` Slack channel).
 
@@ -155,7 +155,7 @@ One example of such a notebook is content that is created during diagnosis of a 
 Another example would be the modification of a generalized template notebook for a specific application.
 
 To facilitate the use of notebooks, a method to create personal repositories, that can still be seen by the team, has been created using the ``sqrbot-jr`` bot in Slack.
-To create a personal SIT-COM Notebook GitHub repository, send a private message to ``sqrbot-jr``, then under the dropdown is a ``SIT-COM`` heading, below which is a ``Personal Notebooks`` option.
+To create a personal SIT-Com Notebook GitHub repository, send a private message to ``sqrbot-jr``, then under the dropdown is a ``SIT-Com`` heading, below which is a ``Personal Notebooks`` option.
 Select this and follow the instructions to have your own repository automatically created.
 The repository has a structure to help the organization and imports of user-developed methods that are imported to the notebooks.
 See the README file in the newly created repository for further information.
@@ -191,7 +191,7 @@ Review Criteria
 """""""""""""""
 
 Official artifacts for verification require specified review criteria.
-Standardizing this is underway, and this section will be populated in a future revision of this document.
+This section will be populated in a future revision of this document by the verification coordinators.
 As mentioned previously, the expectation is that the notebooks closely resemble the `AuxTel area in lsst-ts/ts_notebook <https://github.com/lsst-ts/ts_notebooks/tree/develop/procedures/auxtel>`_ example.
 
 Webspaces
@@ -208,7 +208,7 @@ Two webspaces have been created to support efforts with the Auxiliary Telescope,
 
 Webspaces are areas are best used for user-facing documentation.
 This includes general information, how-to documentation and procedures that are not subject to change control (therefore, these procedures are restricted to ones that do not risk the safety of personnel or equipment).
-Anything requiring strict reviews (e.g., glass lift plans) cannot be put into a webspace, but they can be linked within webspaces.
+Anything requiring strict reviews (e.g., glass lift plans) cannot be put into a webspace, but the official location can be linked, for example, a DocuShare document.
 
 Users are encouraged to populate these areas, which can be accomplished via a standard pull request to GitHub repositories (details in the following sections).
 If there is not an obvious space for your content, then please ask in the ``#rubinobs-sitcom-docs`` Slack channel.
@@ -234,7 +234,7 @@ Obs-Controls webspace
 
 The `Rubin Observatory Controls (Obs-Controls) Documentation webspace <https://obs-controls.lsst.io>`__ fulfills the same purpose as the `Obs-Ops webspace`_, except it is focused on observatory control software.
 This area is the first place to go when looking to learn more about the control system and how to use it.
-SIT-COM personnel are encouraged to populate and contribute to this webspace, as well.
+SIT-Com personnel are encouraged to populate and contribute to this webspace, as well.
 It is very common (and encouraged) to link content between this area and the `Obs-Ops webspace`_.
 
 The process to edit the `Obs-Control webspace <https://obs-controls.lsst.io>`_ follows the same concept as the `Obs-Ops webspace`_.
@@ -254,7 +254,7 @@ DocuShare is used heavily inside the project, particularly for vendor documentat
 Its use is required in certain situations.
 Files and documents are stored by handles (e.g., DOCUMENT-XXXXX, LSE-XXX) and handles can be associated with various *collections*.
 
-SIT-COM has a specific collection that is available for use: `Systems Engineering & Commissioning DocuShare collection <https://docushare.lsst.org/docushare/dsweb/View/Collection-26>`_.
+SIT-Com has a specific collection that is available for use: `Systems Engineering & Commissioning DocuShare collection <https://docushare.lsst.org/docushare/dsweb/View/Collection-26>`_.
 Note that as part of the project-wide Documentation Working Group, the collections and application of DocuShare will be restructured.
 Message the ``#rubinobs-sitcom-docs`` Slack channel for guidance before creating or editing files or collections in DocuShare.
 
